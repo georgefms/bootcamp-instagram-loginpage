@@ -132,3 +132,35 @@ body {
 .app-download:nth-child(2) {
   background-image: url('./img/googleplay-button.png');
 }
+
+/* Media Queries */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .insta-wrapper {
+    width: 90%;
+  }
+}
+
+/* Smartphones */
+@media (max-width: 650px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  .insta-wrapper {
+    width: 90%;
+  }
+
+  .instagram-phone {
+    display: none;
+  }
+
+  .continue-login {
+    width: 100%;
+  }
+
+  .box{
+    border: none;
+  }
+}
